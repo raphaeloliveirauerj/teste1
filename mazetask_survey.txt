@@ -1,0 +1,28 @@
+l: nome
+t: textline
+o: require
+q: Digite seu nome completo:
+- 
+
+l: age
+t: textline
+o: require
+q: Digite sua idade
+- {min=13,max=100}
+
+l: turma
+t: radio                        
+q: Selecione sua turma: 
+- CAMB                     
+- ELELT                  
+- INFO                         
+
+l: englishLevel
+t: range
+o: require
+q: Classifique a sua proficiência em inglês de 1 a 5, onde 1 se refere a habilidades muito básicas e limitadas sobre a língua e 5 conhecimentos próximo ao de um falante nativo da língua inglesa.
+- {min=1,max=5,start=3} Mova o marcador na barra para selecionar sua opção: 
+
+l: maze_task_experiment
+t: experiment
+- maze_task
