@@ -1,1 +1,398 @@
+#28.05.2018
 
+options
+  fullscreen
+  resolution 1024 800
+  mouse off
+
+bitmaps
+  repetirTarefa
+  fimTarefa
+  pausa
+  getReadyBlue
+
+fonts
+  arial 40
+
+include phraseTables.txt
+
+part showPhrase
+  keys a l
+  set $x random from 1 2
+  if $x == 1
+    draw off
+      show text @1 -250  25 255 255 255
+      show text @2 250  25 255 255 255
+    draw on
+    readkey @4 7000
+    save BLOCKORDER TASKNAME @3 TABLEROW @1 @2 @4 RT STATUS
+  fi
+  if $x == 2
+    draw off
+      show text @2 -250  25 255 255 255
+      show text @1 250  25 255 255 255
+    draw on
+    readkey @5 7000
+    save BLOCKORDER TASKNAME @3 TABLEROW @2 @1 @5 RT STATUS
+  fi
+  clear -1 -2
+  if STATUS == CORRECT
+    if TABLEROW == 4
+      show text "CORRECT!" 0 0 35 142 35
+      delay 1500
+      clear -1
+    fi
+  fi
+  if STATUS == WRONG
+    if TABLEROW != 1
+      show text "INCORRECT!" 0 0 255 0 0
+      delay 1500
+      clear -1
+      end tasklist
+    fi
+  fi
+  if STATUS == TIMEOUT
+    end tasklist
+  fi
+
+task frase1
+  mouse hide
+  table dative1
+  part showPhrase
+
+task frase2
+  table dative2
+  part showPhrase
+
+task frase3
+  table dative3
+  part showPhrase
+
+task frase4
+  table dative4
+  part showPhrase
+
+task frase5
+  table dative5
+  part showPhrase
+
+task frase6
+  table dative6
+  part showPhrase
+
+task frase7
+  table dative7
+  part showPhrase
+
+task frase8
+  table dative8
+  part showPhrase
+
+task frase9
+  table nounPhrase1
+  part showPhrase
+
+task frase10
+  table nounPhrase2
+  part showPhrase
+
+task frase11
+  table nounPhrase3
+  part showPhrase
+
+task frase12
+  table nounPhrase4
+  part showPhrase
+
+task frase13
+  table nounPhrase5
+  part showPhrase
+
+task frase14
+  table nounPhrase6
+  part showPhrase
+
+task frase15
+  table nounPhrase7
+  part showPhrase
+
+task frase16
+  table nounPhrase8
+  part showPhrase
+
+task frase17
+  table thirdPerson1
+  part showPhrase
+
+task frase18
+  table thirdPerson2
+  part showPhrase
+
+task frase19
+  table thirdPerson3
+  part showPhrase
+
+task frase20
+  table thirdPerson4
+  part showPhrase
+
+task frase21
+  table thirdPerson5
+  part showPhrase
+
+task frase22
+  table thirdPerson6
+  part showPhrase
+
+task frase23
+  table thirdPerson7
+  part showPhrase
+
+task frase24
+  table thirdPerson8
+  part showPhrase
+
+task frase25
+  table question1
+  part showPhrase
+
+task frase26
+  table question2
+  part showPhrase
+
+task frase27
+  table question3
+  part showPhrase
+
+task frase28
+  table question4
+  part showPhrase
+
+task frase29
+  table question5
+  part showPhrase
+
+task frase30
+  table question6
+  part showPhrase
+
+block instructions
+  message repetirTarefa
+
+block b_pause
+  message pausa
+
+block final
+  message fimTarefa
+
+block b1
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase1 4 fixed
+  end
+
+block b2
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase2 4 fixed
+  end
+
+block b3
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase3 4 fixed
+  end
+
+block b4
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase4 4 fixed
+  end
+
+block b5
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase5 4 fixed
+  end
+
+block b6
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase6 4 fixed
+  end
+
+block b7
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase7 4 fixed
+  end
+
+block b8
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase8 4 fixed
+  end
+
+block b9
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase9 4 fixed
+  end
+
+block b10
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase10 4 fixed
+  end
+
+block b11
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase11 4 fixed
+  end
+
+block b12
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase12 4 fixed
+  end
+
+block b13
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase13 4 fixed
+  end
+
+block b14
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase14 4 fixed
+  end
+
+block b15
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase15 4 fixed
+  end
+
+block b16
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase16 4 fixed
+  end
+
+block b17
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase17 4 fixed
+  end
+
+block b18
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase18 4 fixed
+  end
+
+block b19
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase19 4 fixed
+  end
+
+block b20
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase20 4 fixed
+  end
+
+block b21
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase21 4 fixed
+  end
+
+block b22
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase22 4 fixed
+  end
+
+block b23
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase23 4 fixed
+  end
+
+block b24
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase24 4 fixed
+  end
+
+block b25
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase25 4 fixed
+  end
+
+block b26
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase26 4 fixed
+  end
+
+block b27
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase27 4 fixed
+  end
+
+block b28
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase28 4 fixed
+  end
+
+block b29
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase29 4 fixed
+  end
+
+block b30
+  bitmap getReadyBlue
+  delay 1500
+  tasklist
+    frase30 4 fixed
+  end
+
+include blockOrder.txt
