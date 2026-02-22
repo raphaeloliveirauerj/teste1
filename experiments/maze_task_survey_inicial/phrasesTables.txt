@@ -1,0 +1,179 @@
+table dative1
+  "Rafael" "XXX" "L1" a l
+  "queria desouvir" "ontem ela" "L2" a l
+  "a triste notícia" "comprou o sabão" "L3" a l
+  "do rádio" "mas eu volto" "L4" a l
+
+table dative2
+  "Camila" "XXX" "L1" a l
+  "podia desvotar" "hoje ele" "L2" a l
+  "a velha escolha" "lavou o carro" "L3" a l
+  "do grupo" "pois eu fico" "L4" a l
+
+table dative3
+  "Rodrigo" "XXX" "L1" a l
+  "queria desclicar" "sempre ela" "L2" a l
+  "o falso atalho" "tirou o lobo" "L3" a l
+  "da tela" "se eu saio" "L4" a l
+
+table dative4
+  "Helena" "XXX" "L1" a l
+  "tentava desnoivar" "nunca ele" "L2" a l
+  "o velho noivado" "botou o vaso" "L3" a l
+  "de anos" "que eu entro" "L4" a l
+
+table dative5
+  "Marcelo" "XXX" "L1" a l
+  "tentava desdizer" "ainda ela" "L2" a l
+  "a falsa fofoca" "pegou o dado" "L3" a l
+  "da prima" "nem eu falo" "L4" a l
+
+table dative6
+  "Vanessa" "XXX" "L1" a l
+  "podia desberrar" "talvez ele" "L2" a l
+  "o rude insulto" "achou a chave" "L3" a l
+  "ao chefe" "mas eu paro" "L4" a l
+
+table dative7
+  "Gustavo" "XXX" "L1" a l
+  "devia deschutar" "logo isso" "L2" a l
+  "a pobre perna" "levou o pano" "L3" a l
+  "do amigo" "pois eu sigo" "L4" a l
+
+table dative8
+  "Larissa" "XXX" "L1" a l
+  "tentava desfurar" "cedo ela" "L2" a l
+  "a velha câmara" "jogou o sino" "L3" a l
+  "da moto" "se eu penso" "L4" a l
+
+table nounPhrase1
+  "Ricardo" "XXX" "L1" a l
+  "podia desentrar" "tarde ele" "L2" a l
+  "o novo cadastro" "puxou o cinto" "L3" a l
+  "no site" "que eu tento" "L4" a l
+
+table nounPhrase2
+  "Renata" "XXX" "L1" a l
+  "tentava desbeber" "aqui ela" "L2" a l
+  "a forte cerveja" "colou o texto" "L3" a l
+  "do clube" "nem eu vejo" "L4" a l
+
+table nounPhrase3
+  "Roberto" "XXX" "L1" a l
+  "devia desmarcar" "ali ele" "L2" a l
+  "a nova consulta" "queimou o livro" "L3" a l
+  "no posto" "mas eu corro" "L4" a l
+
+table nounPhrase4
+  "Priscila" "XXX" "L1" a l
+  "podia desligar" "perto ela" "L2" a l
+  "o velho alarme" "chamou o gato" "L3" a l
+  "do carro" "pois eu passo" "L4" a l
+
+table nounPhrase5
+  "Felipe" "XXX" "L1" a l
+  "queria desfazer" "longe ele" "L2" a l
+  "o falso acordo" "cortou o rato" "L3" a l
+  "do fórum" "se eu volto" "L4" a l
+
+table nounPhrase6
+  "Jéssica" "XXX" "L1" a l
+  "podia desmontar" "quase isso" "L2" a l
+  "o velho armário" "fechou a mala" "L3" a l
+  "do quarto" "que eu fico" "L4" a l
+
+table nounPhrase7
+  "Danilo" "XXX" "L1" a l
+  "devia desmentir" "sempre ele" "L2" a l
+  "a velha notícia" "abriu o copo" "L3" a l
+  "do jornal" "nem eu saio" "L4" a l
+
+table nounPhrase8
+  "Bárbara" "XXX" "L1" a l
+  "queria desposar" "nunca ela" "L2" a l
+  "a bela viúva" "guardou o fogo" "L3" a l
+  "da vila" "mas eu entro" "L4" a l
+
+table thirdPerson1
+  "Fernando" "XXX" "L1" a l
+  "queria desvelar" "hoje isso" "L2" a l
+  "o puro segredo" "rasgou o pano" "L3" a l
+  "do livro" "pois eu falo" "L4" a l
+
+table thirdPerson2
+  "Débora" "XXX" "L1" a l
+  "podia desaguar" "ontem ele" "L2" a l
+  "o velho esgoto" "secou a roupa" "L3" a l
+  "no ralo" "se eu paro" "L4" a l
+
+table thirdPerson3
+  "Alberto" "XXX" "L1" a l
+  "tentava desatar" "logo ela" "L2" a l
+  "a longa gravata" "mexeu o dente" "L3" a l
+  "de seda" "que eu sigo" "L4" a l
+
+table thirdPerson4
+  "Mônica" "XXX" "L1" a l
+  "deixava desandar" "cedo ele" "L2" a l
+  "a doce receita" "meteu o banco" "L3" a l
+  "do bolo" "nem eu penso" "L4" a l
+
+table thirdPerson5
+  "Augusto" "XXX" "L1" a l
+  "queria terminar" "tarde ela" "L2" a l
+  "a longa tarefa" "passou o pente" "L3" a l
+  "do curso" "mas eu tento" "L4" a l
+
+table thirdPerson6
+  "Cristina" "XXX" "L1" a l
+  "podia ensinar" "aqui ele" "L2" a l
+  "a nova cartilha" "tomou o suco" "L3" a l
+  "da turma" "pois eu vejo" "L4" a l
+
+table thirdPerson7
+  "Bernardo" "XXX" "L1" a l
+  "devia caminhar" "ali ela" "L2" a l
+  "o longo trajeto" "bebeu o gelo" "L3" a l
+  "do parque" "se eu corro" "L4" a l
+
+table thirdPerson8
+  "Suzana" "XXX" "L1" a l
+  "podia viajar" "perto ele" "L2" a l
+  "o longo percurso" "pagou o porto" "L3" a l
+  "do porto" "que eu passo" "L4" a l
+
+table question1
+  "Orlando" "XXX" "L1" a l
+  "podia ajudar" "longe ela" "L2" a l
+  "o pobre colega" "virou o sapo" "L3" a l
+  "do bairro" "nem eu volto" "L4" a l
+
+table question2
+  "Rosana" "XXX" "L1" a l
+  "pensava murmurar" "ainda ele" "L2" a l
+  "a breve resposta" "soltou o pato" "L3" a l
+  "na praça" "mas eu fico" "L4" a l
+
+table question3
+  "Ronaldo" "XXX" "L1" a l
+  "podia tropeçar" "talvez ela" "L2" a l
+  "a dura palavra" "limpou o muro" "L3" a l
+  "do texto" "pois eu saio" "L4" a l
+
+table question4
+  "Bianca" "XXX" "L1" a l
+  "devia fustigar" "quase ele" "L2" a l
+  "o pobre cavalo" "pintou o barco" "L3" a l
+  "do circo" "se eu entro" "L4" a l
+
+table question5
+  "Leandro" "XXX" "L1" a l
+  "podia ressonar" "sempre isso" "L2" a l
+  "um leve cochilo" "salvou o campo" "L3" a l
+  "no sofá" "que eu falo" "L4" a l
+
+table question6
+  "Aline" "XXX" "L1" a l
+  "queria galopar" "nunca isso" "L2" a l
+  "um longo percurso" "contou o caso" "L3" a l
+  "no campo" "nem eu paro" "L4" a l
